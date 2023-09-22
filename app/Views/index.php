@@ -45,9 +45,12 @@
             foreach ($products as $val){
             if ($val['category_id'] == $cat['category_id']){
             ?>
-            <li class="list-group-item bg-dark"><a href="/edit/<?=$val['product_id']?>"
-                    class="btn btn-light form-control text-start"><i class="fa-solid fa-caret-right"></i>
+            <li class="list-group-item bg-dark  d-flex justify-content-between align-items-center"><a
+                    href="/edit/<?=$val['product_id']?>" class="btn btn-light form-control text-start"><i
+                        class="fa-solid fa-caret-right"></i>
                     <?=$val['name']?></a>
+                <span class="badge bg-danger rounded-2 ms-1"><a class="btn btn-sm text-white"
+                        href="/delete/<?= $val['product_id']?>"><i class="fa-solid fa-trash"></i> Delete</a></span>
             </li>
             <?php } } }?>
         </ul>

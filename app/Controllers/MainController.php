@@ -40,7 +40,12 @@ class MainController extends BaseController
         $this->product->save($data);
         return redirect()->to('/index');
     }
-
+ 
+    public function delete($id){
+        $this->product->where('product_id', $id)->delete();
+        return redirect()->to('/index');
+    }
+    
     public function edit($id){
         $data['category'] = $this->category->findAll();
         $data['product'] = $this->product->where('product_id', $id)->findAll();
