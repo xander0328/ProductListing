@@ -1,0 +1,294 @@
+CRITICAL - 2023-09-22 12:38:19 --> Undefined variable $category
+in APPPATH\Views\add.php on line 38.
+ 1 APPPATH\Views\add.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\laragon\\www\\ProductListing\\app\\Views\\add.php', 38)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ProductListing\\app\\Views\\add.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('add', [], true)
+ 5 APPPATH\Controllers\MainController.php(29): view('add')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->add()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ProductListing\\public\\index.php')
+CRITICAL - 2023-09-22 12:45:29 --> Undefined property: App\Controllers\MainController::$main
+in APPPATH\Controllers\MainController.php on line 40.
+ 1 APPPATH\Controllers\MainController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\MainController::$main', 'C:\\laragon\\www\\ProductListing\\app\\Controllers\\MainController.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ProductListing\\public\\index.php')
+CRITICAL - 2023-09-22 12:45:30 --> Undefined property: App\Controllers\MainController::$main
+in APPPATH\Controllers\MainController.php on line 40.
+ 1 APPPATH\Controllers\MainController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\MainController::$main', 'C:\\laragon\\www\\ProductListing\\app\\Controllers\\MainController.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ProductListing\\public\\index.php')
+CRITICAL - 2023-09-22 12:45:30 --> Undefined property: App\Controllers\MainController::$main
+in APPPATH\Controllers\MainController.php on line 40.
+ 1 APPPATH\Controllers\MainController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\MainController::$main', 'C:\\laragon\\www\\ProductListing\\app\\Controllers\\MainController.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ProductListing\\public\\index.php')
+CRITICAL - 2023-09-22 12:46:28 --> Undefined property: App\Controllers\MainController::$main
+in APPPATH\Controllers\MainController.php on line 40.
+ 1 APPPATH\Controllers\MainController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\MainController::$main', 'C:\\laragon\\www\\ProductListing\\app\\Controllers\\MainController.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ProductListing\\public\\index.php')
+CRITICAL - 2023-09-22 12:50:53 --> Undefined property: App\Controllers\MainController::$main
+in APPPATH\Controllers\MainController.php on line 40.
+ 1 APPPATH\Controllers\MainController.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\MainController::$main', 'C:\\laragon\\www\\ProductListing\\app\\Controllers\\MainController.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->save()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ProductListing\\public\\index.php')
+CRITICAL - 2023-09-22 13:34:43 --> Undefined variable $products
+in APPPATH\Views\create_category.php on line 45.
+ 1 APPPATH\Views\create_category.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $products', 'C:\\laragon\\www\\ProductListing\\app\\Views\\create_category.php', 45)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ProductListing\\app\\Views\\create_category.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('create_category', [], true)
+ 5 APPPATH\Controllers\MainController.php(46): view('create_category', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->create_category()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ProductListing\\public\\index.php')
+CRITICAL - 2023-09-22 13:50:34 --> Too few arguments to function CodeIgniter\BaseModel::save(), 0 passed in C:\laragon\www\ProductListing\app\Controllers\MainController.php on line 51 and exactly 1 expected
+in SYSTEMPATH\BaseModel.php on line 689.
+ 1 APPPATH\Controllers\MainController.php(51): CodeIgniter\BaseModel->save()
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->save_cat()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ProductListing\\public\\index.php')
+ERROR - 2023-09-22 14:05:46 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\laragon\www\ProductListing\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ProductListing\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `ta...', 0)
+#1 C:\laragon\www\ProductListing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ta...')
+#2 C:\laragon\www\ProductListing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ta...')
+#3 C:\laragon\www\ProductListing\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ta...', Array, false)
+#4 C:\laragon\www\ProductListing\system\Model.php(445): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\ProductListing\system\BaseModel.php(1080): CodeIgniter\Model->doDelete(Array, false)
+#6 C:\laragon\www\ProductListing\app\Controllers\MainController.php(57): CodeIgniter\BaseModel->delete(Array)
+#7 C:\laragon\www\ProductListing\system\CodeIgniter.php(919): App\Controllers\MainController->delete_cat('5')
+#8 C:\laragon\www\ProductListing\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 C:\laragon\www\ProductListing\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\ProductListing\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\ProductListing\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-09-22 14:05:46 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `table_category`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(445): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1080): CodeIgniter\Model->doDelete([...], false)
+ 4 APPPATH\Controllers\MainController.php(57): CodeIgniter\BaseModel->delete([...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->delete_cat('5')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ProductListing\\public\\index.php')
+ERROR - 2023-09-22 14:08:11 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\laragon\www\ProductListing\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ProductListing\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `ta...', 0)
+#1 C:\laragon\www\ProductListing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ta...')
+#2 C:\laragon\www\ProductListing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ta...')
+#3 C:\laragon\www\ProductListing\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ta...', Array, false)
+#4 C:\laragon\www\ProductListing\system\Model.php(445): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\ProductListing\system\BaseModel.php(1080): CodeIgniter\Model->doDelete(Array, true)
+#6 C:\laragon\www\ProductListing\app\Controllers\MainController.php(57): CodeIgniter\BaseModel->delete(Array, true)
+#7 C:\laragon\www\ProductListing\system\CodeIgniter.php(919): App\Controllers\MainController->delete_cat('5')
+#8 C:\laragon\www\ProductListing\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 C:\laragon\www\ProductListing\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\ProductListing\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\ProductListing\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-09-22 14:08:11 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `table_category`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(445): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1080): CodeIgniter\Model->doDelete([...], true)
+ 4 APPPATH\Controllers\MainController.php(57): CodeIgniter\BaseModel->delete([...], true)
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->delete_cat('5')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ProductListing\\public\\index.php')
+ERROR - 2023-09-22 14:08:17 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\laragon\www\ProductListing\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ProductListing\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `ta...', 0)
+#1 C:\laragon\www\ProductListing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ta...')
+#2 C:\laragon\www\ProductListing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ta...')
+#3 C:\laragon\www\ProductListing\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ta...', Array, false)
+#4 C:\laragon\www\ProductListing\system\Model.php(445): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\ProductListing\system\BaseModel.php(1080): CodeIgniter\Model->doDelete(Array, true)
+#6 C:\laragon\www\ProductListing\app\Controllers\MainController.php(57): CodeIgniter\BaseModel->delete(Array, true)
+#7 C:\laragon\www\ProductListing\system\CodeIgniter.php(919): App\Controllers\MainController->delete_cat('5')
+#8 C:\laragon\www\ProductListing\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 C:\laragon\www\ProductListing\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\ProductListing\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\ProductListing\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-09-22 14:08:17 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `table_category`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(445): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1080): CodeIgniter\Model->doDelete([...], true)
+ 4 APPPATH\Controllers\MainController.php(57): CodeIgniter\BaseModel->delete([...], true)
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->delete_cat('5')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ProductListing\\public\\index.php')
+ERROR - 2023-09-22 14:13:05 --> mysqli_sql_exception: Unknown column 'id' in 'where clause' in C:\laragon\www\ProductListing\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\laragon\www\ProductListing\system\Database\MySQLi\Connection.php(306): mysqli->query('DELETE FROM `ta...', 0)
+#1 C:\laragon\www\ProductListing\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `ta...')
+#2 C:\laragon\www\ProductListing\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `ta...')
+#3 C:\laragon\www\ProductListing\system\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `ta...', Array, false)
+#4 C:\laragon\www\ProductListing\system\Model.php(445): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\laragon\www\ProductListing\system\BaseModel.php(1080): CodeIgniter\Model->doDelete(Array, true)
+#6 C:\laragon\www\ProductListing\app\Controllers\MainController.php(57): CodeIgniter\BaseModel->delete(Array, true)
+#7 C:\laragon\www\ProductListing\system\CodeIgniter.php(919): App\Controllers\MainController->delete_cat('4')
+#8 C:\laragon\www\ProductListing\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+#9 C:\laragon\www\ProductListing\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\laragon\www\ProductListing\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 C:\laragon\www\ProductListing\system\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\...')
+#12 {main}
+CRITICAL - 2023-09-22 14:13:05 --> Unknown column 'id' in 'where clause'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2790): CodeIgniter\Database\BaseConnection->query('DELETE FROM `table_category`
+WHERE `id` IN :id:', [...], false)
+ 2 SYSTEMPATH\Model.php(445): CodeIgniter\Database\BaseBuilder->delete()
+ 3 SYSTEMPATH\BaseModel.php(1080): CodeIgniter\Model->doDelete([...], true)
+ 4 APPPATH\Controllers\MainController.php(57): CodeIgniter\BaseModel->delete([...], true)
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->delete_cat('4')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ProductListing\\public\\index.php')
+CRITICAL - 2023-09-22 14:47:43 --> Undefined array key "name"
+in APPPATH\Views\edit.php on line 33.
+ 1 APPPATH\Views\edit.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\laragon\\www\\ProductListing\\app\\Views\\edit.php', 33)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ProductListing\\app\\Views\\edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('edit', [], true)
+ 5 APPPATH\Controllers\MainController.php(47): view('edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ProductListing\\public\\index.php')
+CRITICAL - 2023-09-22 14:49:16 --> syntax error, unexpected token "<"
+in APPPATH\Controllers\MainController.php on line 48.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\ProductListing\\app\\Controllers\\MainController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MainController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MainController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\MainController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ProductListing\\public\\index.php')
+CRITICAL - 2023-09-22 14:49:23 --> syntax error, unexpected identifier "print_r", expecting "," or ";"
+in APPPATH\Controllers\MainController.php on line 49.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\laragon\\www\\ProductListing\\app\\Controllers\\MainController.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\MainController')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\MainController')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\MainController', true)
+ 5 SYSTEMPATH\CodeIgniter.php(481): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ProductListing\\public\\index.php')
+CRITICAL - 2023-09-22 14:50:18 --> Undefined array key "name"
+in APPPATH\Views\edit.php on line 33.
+ 1 APPPATH\Views\edit.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\laragon\\www\\ProductListing\\app\\Views\\edit.php', 33)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ProductListing\\app\\Views\\edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('edit', [], true)
+ 5 APPPATH\Controllers\MainController.php(47): view('edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ProductListing\\public\\index.php')
+CRITICAL - 2023-09-22 14:53:48 --> Undefined array key "description"
+in APPPATH\Views\edit.php on line 35.
+ 1 APPPATH\Views\edit.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "description"', 'C:\\laragon\\www\\ProductListing\\app\\Views\\edit.php', 35)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ProductListing\\app\\Views\\edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('edit', [], true)
+ 5 APPPATH\Controllers\MainController.php(47): view('edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ProductListing\\public\\index.php')
+CRITICAL - 2023-09-22 14:54:52 --> Undefined array key "name"
+in APPPATH\Views\edit.php on line 33.
+ 1 APPPATH\Views\edit.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\laragon\\www\\ProductListing\\app\\Views\\edit.php', 33)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ProductListing\\app\\Views\\edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('edit', [], true)
+ 5 APPPATH\Controllers\MainController.php(47): view('edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ProductListing\\public\\index.php')
+CRITICAL - 2023-09-22 14:54:53 --> Undefined array key "name"
+in APPPATH\Views\edit.php on line 33.
+ 1 APPPATH\Views\edit.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\laragon\\www\\ProductListing\\app\\Views\\edit.php', 33)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ProductListing\\app\\Views\\edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('edit', [], true)
+ 5 APPPATH\Controllers\MainController.php(47): view('edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ProductListing\\public\\index.php')
+CRITICAL - 2023-09-22 14:54:54 --> Undefined array key "name"
+in APPPATH\Views\edit.php on line 33.
+ 1 APPPATH\Views\edit.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\laragon\\www\\ProductListing\\app\\Views\\edit.php', 33)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ProductListing\\app\\Views\\edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('edit', [], true)
+ 5 APPPATH\Controllers\MainController.php(47): view('edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ProductListing\\public\\index.php')
+CRITICAL - 2023-09-22 15:00:27 --> Undefined array key "qauntity"
+in APPPATH\Views\edit.php on line 58.
+ 1 APPPATH\Views\edit.php(58): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "qauntity"', 'C:\\laragon\\www\\ProductListing\\app\\Views\\edit.php', 58)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\ProductListing\\app\\Views\\edit.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('edit', [], true)
+ 5 APPPATH\Controllers\MainController.php(47): view('edit', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ProductListing\\public\\index.php')
+CRITICAL - 2023-09-22 15:04:21 --> syntax error, unexpected identifier "post", expecting "," or ";"
+in APPPATH\Views\edit.php on line 31.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('edit', [], true)
+ 3 APPPATH\Controllers\MainController.php(47): view('edit', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\MainController->edit('1')
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\MainController))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\ProductListing\\public\\index.php')

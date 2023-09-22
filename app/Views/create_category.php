@@ -23,33 +23,31 @@
 </head>
 
 <body class="px-3">
-    <div class="p-3 text-center mb-5 rounded-top rounded-5 text-warning bg-dark">
-        <div class=" fs-1 fw-b"><i class="fa-solid fa-microchip"></i> ExeTech</div>
+    <div class="my-3"><a href="/index" class="btn btn-light rounded-pill">
+            <i class="fa-solid fa-chevron-left"></i> Back</a></div>
+    <div class="bg-dark p-3 rounded-3 mb-3">
+        <form action="/save_cat" method="post">
+            <div class="input-group">
+                <input type="text" class="form-control rounded-3 rounded-end me-2" name="category"
+                    placeholder="Category Name">
+                <button class="btn btn-warning rounded-3 rounded-start" type="submit">Create</button>
+            </div>
+        </form>
     </div>
     <div class="px-4 pt-3 pb-2 bg-warning rounded-3 rounded-bottom">
-        <div class="fs-3"><b>Products</b>
-            <a href="/add" class="btn btn-light rounded-3 btn-sm"> <i class="fa-solid fa-bag-shopping"></i>
-                Add
-                Product</a>
-            <a href="/category" class="btn btn-light rounded-3  btn-sm"><i class="fa-solid fa-list"></i>
-                Add Category</a>
+        <div class="fs-3"><b>Categories</b>
         </div>
     </div>
-    <div class="px-2 pb-3 my-1 bg-dark rounded-3 rounded-top">
+    <div class="px-1 mt-1 bg-dark rounded-3 rounded-top">
         <ul class="list-group list-group-flush">
             <?php 
             foreach($category as $cat){?>
-            <div class="fs-4 p-2 px-4 mt-2 text-warning">
-                <?=$cat['category']?>
-            </div> <?php
-            foreach ($products as $val){
-            if ($val['category_id'] == $cat['category_id']){
-            ?>
-            <li class="list-group-item bg-dark"><a href="/edit/<?=$val['product_id']?>"
-                    class="btn btn-light form-control text-start"><i class="fa-solid fa-caret-right"></i>
-                    <?=$val['name']?></a>
+            <li class="list-group-item bg-dark text-white d-flex justify-content-between align-items-center">
+                <?= $cat['category'] ?>
+                <span class="badge bg-danger rounded-2"><a class="btn btn-sm text-white"
+                        href="/delete_cat/<?= $cat['category_id']?>"><i class="fa-solid fa-trash"></i> Delete</a></span>
             </li>
-            <?php } } }?>
+            <?php } ?>
         </ul>
     </div>
 
