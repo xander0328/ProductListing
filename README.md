@@ -1,4 +1,4 @@
-#Laboratory #1
-##App Dev
+# Laboratory #1
+App Dev
 
-online_store.sql is uploaded to test with database
+Note: online_store.sql is uploaded to test with database
