@@ -28,11 +28,12 @@
     </div>
     <div class="px-4 pt-3 pb-2 bg-warning rounded-3 rounded-bottom">
         <div class="fs-3"><b>Products</b>
-            <a href="/add" class="btn btn-light rounded-3 btn-sm"> <i class="fa-solid fa-bag-shopping"></i>
-                Add
-                Product</a>
+            <a href="/add" class="btn btn-light rounded-3 btn-sm"> <span class="d-inline d-md-none"> <i
+                        class="fa-solid fa-plus"></i></span>
+                <span class="d-none d-md-inline"><i class="fa-solid fa-bag-shopping"></i> Add
+                    Product</span> </a>
             <a href="/category" class="btn btn-light rounded-3  btn-sm"><i class="fa-solid fa-list"></i>
-                Add Category</a>
+                <span class="d-none d-md-inline">Categories</span></a>
         </div>
     </div>
     <div class="px-2 pb-3 my-1 bg-dark rounded-3 rounded-top">

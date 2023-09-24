@@ -25,9 +25,9 @@
 
 <body>
     <div class="m-4">
-        <a href="/index" class="btn btn-light rounded-pill">
+        <a href="/index" class="btn btn-light rounded-pill mb-2">
             <i class="fa-solid fa-chevron-left"></i> Back</a>
-        <div class="m-auto col-5 ">
+        <div class="m-auto col-lg-5 ">
             <div class="fs-2 mb-2 bg-warning p-3 rounded-4 rounded-bottom">Add Product</div>
             <form class="bg-dark p-3 rounded-4 rounded-top text-white" action="/save" method="post">
                 <label for="">Name: </label>
